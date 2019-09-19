@@ -67,7 +67,7 @@ body{
     display:grid;
     grid-template-columns:3fr 3fr 3fr 3fr 1fr;
     grid-gap:20px;
-    padding-left: 330px;
+    padding-left: 310px;
     padding-top: 20px;
 
 }
@@ -123,109 +123,128 @@ form {
     margin-top: 10%;
     font:20px bold;
 }
-#navbar{
-    position: fixed;
-    z-index: 1000;
-    right:0;
-    border-radius: 50%;
-    border:1px solid black;
-    bottom:140px;
-    margin: 10px;
-    background-color: rgb(104 2 247);
-    text-align: center;
-    font-size: 20pt;
-    font-weight: 700;
-    padding:15px;
-    width:70px;
-    cursor:pointer;
-    transition: 0.24s 0.2s;
+.playlist{
+    justify-content: center;
+    padding-left: 240px;
 }
 
-.navbar .menu{
-    list-style: none;
-    padding: 0;
+.title{
+    text-align: center;
+}
+#paper{
+    justify-content: center;
+    padding-left: 460px;
+}
+#educ{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 15vw);
+    grid-gap: 10px;
+    padding-left: 135px;
+}
+ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.right{
+    float: right;
+}
+/*#nav {*/
+/*    transition: opacity 0.25s;*/
+/*}*/
+
+/*.navbar-fixed {*/
+/*    opacity: 0.75*/
+/*}*/
+
+/*.navbar-trans {*/
+/*    opacity: 1;*/
+/*}*/
+/*#nav {*/
+/*    transition: background-color 0.3s ease;*/
+/*    background-color: rgba(255,255,255,0);*/
+/*}*/
+/*#nav.navbar-fixed {*/
+/*    background-color: rgba(255,255,255,1);*/
+/*}*/
+#menu-nav {
+    max-width: 100%;
+    margin: 10px auto;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    /*float: left;*/
+
+
+}
+
+
+#navigation-bar ul {
+    border-radius: 4px;
+    overflow: hidden;
+}
+#navigation-bar li {
+    float: left;
+    width: 11.9%;
+}
+#navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+}
+#navigation-bar a {
+    color: #848484;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    /*padding: 20px 0;*/
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+    color: #e74c3c;
+}
+#navigation-bar a::before {
+    content: "";
+    transition: all 0.4s ease-in-out;
     position: absolute;
-    top: -75px;
-    left:-75px;
-    border:150px solid transparent;
-    cursor: default;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: tranform 1.4s 0.07s;
-    z-index:-1;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #e74c3c;
 }
-.navbar:hover .menu{
-    transition:transform 0.4s 0.08s, z-index 0s 0.5s;
-    transform: scale(1);
-    z-index: 1;
+#navigation-bar a:hover::before {
+    right: 0;
+    left: 0;
 }
-.navbar .menu li{
-    position:absolute;
-    top: -100px;
-    left: -100px;
-    transform-origin: 100px 100px;
-    transition: all 0.5s 0.1s;
+
+li {
+    list-style: none;
 }
-.navbar:hover .menu li{
-    transition: all 0.7s;
-}
-.navbar .menu li a{
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 50%;
-    background:white;
-    position: absolute;
-    font-size: 59%;
-    color:;
-    transition: 0.7s;
-}
-.navbar:hover .menu li:nth-child(1){
-    transition-delay: 0.02s;
-    transform: rotate(85deg);
-}
-.navbar:hover .menu li:nth-child(1) a{
-    transition-delay: 0.04s;
-    transform: rotate(635deg);
-}
-.navbar:hover .menu li:nth-child(2){
-    transition-delay: 0.04s;
-    transform: rotate(125deg);
-}
-.navbar:hover .menu li:nth-child(2){
-    transition-delay: 0.08s;
-    transform: rotate(595deg);
-}
-.navbar:hover .menu li:nth-child(3){
-    transition-delay: 0.06s;
-    transform: rotate(165deg);
-}
-.navbar:hover .menu li:nth-child(3) a{
-    transition-delay: 0.12s;
-    transform: rotate(555deg);
-}
-.navbar:hover .menu li:nth-child(4){
-    transition-delay: 0.08s;
-    transform: rotate(205deg);
-}
-.navbar:hover .menu li:nth-child(4) a{
-    transition-delay: 0.16s;
-    transform: rotate(515deg);
-}
-.navbar:hover .menu li:nth-child(5){
-    transition-delay: 0.1s;
-    transform: rotate(245deg);
-}
-.navbar:hover .menu li:nth-child(5) a{
-    transition-delay: 0.2s;
-    transform: rotate(475deg);
-}
-.navbar:hover .menu li:nth-child(6){
-    transition-delay: 0.12s;
-    transform: rotate(285deg);
-}
-.navbar:hover .menu li:nth-child(6) a{
-    transition-delay: 0.24s;
-    transform: rotate(435deg);
+#work_exp{
+    padding-left: 460px;
 }

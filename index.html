@@ -8,13 +8,28 @@
     <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
-
-
-
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 </head>
 <body>
 <!--Introduction-->
-<header class="showcase">
+<div id="menu-nav">
+    <div id="navigation-bar">
+        <ul >
+            <li><a href="#home"><span class="fas fa-home">Home</span></a></li>
+            <li><a href="#skills"><span class="fas fa-memory">Skills</span></a></li>
+            <li><a href="#portfolio"><span class="fas fa-briefcase">Portfolio</span></a></li>
+
+            <li><a href="#about"><span class="far fa-user">About Me</span></a></li>
+
+            <li><a href="#education"><span class="fas fa-book-open">Education</span></a></li>
+            <li><a href="#resume"><span class="far fa-file">Resume</span></a></li>
+            <li><a href="#contact"><span class="far fa-address-card">Contact</span></a></li>
+            <li><a href="#reflections"><span class="far fa-lightbulb">Reflections</span></a></li>
+        </ul>
+    </div>
+</div>
+<div id="home" class="showcase">
     <div class="content">
         <img src="./img/MMY-logo-white.png" class="logo" alt="Melissa's Logo">
         <div class = "title">
@@ -25,7 +40,7 @@
         </div>
 
     </div>
-</header>
+</div>
 <!--<div id="app">-->
 <!--    <nav class="top-nav">-->
 <!--        <a id="navbar">-->
@@ -57,18 +72,11 @@
 <!--    </nav>-->
 <!--</div>-->
 
-<button class="cn-button" id="cn-button">+</button>
-<div class="cn-wrapper" id="cn-wrapper">
-    <ul>
-        <li><a href="#"><span class="fas fa-home"></span></a>Home</li>
-        <li><a href="#"><span class="fas fa-briefcase"></span></a>Portfolio</li>
+<!--<button class="cn-button" id="cn-button">+</button>-->
+<!--<nav class="navbar navbar-default">-->
+<!--bg-dark navbar-dark fixed-top">&ndash;&gt;-->
 
-        <li><a href="#"><span class="icon-home"></span></a></li>
-        <li><a href="#"><span class="icon-facetime-video"></span></a></li>
-        <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
-    </ul>
-</div>
-<div id="cn-overlay" class="cn-overlay"></div>
+<!--</nav>-->
 
 <div class = 'intro'>
     <br>
@@ -84,29 +92,29 @@
 <section class="sub_title grid-3 center">
       <div class="container grid-3 center">
         <div>
-            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-github fa-4x"></i></a>
         </div>
 
 
         <div>
-            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-html5 fa-3x"></i></a>
+            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-html5 fa-4x"></i></a>
         </div>
 
 
         <div>
-            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-css3-alt fa-3x"></i></a>
+            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-css3-alt fa-4x"></i></a>
         </div>
         <div>
-            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-python fa-3x"></i></a>
+            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-python fa-4x"></i></a>
         </div>
         <div>
-            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-js fa-3x"></i></a>
+            <a href="https://github.com/MelissaYates" target="_blank"><i class="fab fa-js fa-4x"></i></a>
         </div>
 
     </div>
 </section>
 <!--About Me-->
-<section class="about bg-light">
+<section id="about" class="about bg-light">
     <div class="container">
         <div class="grid_2">
             <div class="center">
@@ -122,8 +130,9 @@
     </div>
 </section>
 <!--Projects-->
-<section class="projects">
+<section id="portfolio" class="projects">
     <div class="projects-container">
+        <h3 class="title">Portfolio</h3>
         <div class="projects-square">
 <!--            First Project-->
             <a href="https://github.com/cs-fullstack-2019-fall/frontend-halfday1-b-MelissaYates.git" class="button-click">
@@ -144,31 +153,29 @@
     </div>
 </section>
 <!--Education-->
-<section class="education">
+<section id="education" class="education">
+    <h3 class="title">Education</h3>
     <div id="educ">
             <div>
-                <a href="https://www.code-crew.org/codeschool" target="_blank"><img src="img/code-school-logo-3-3-.png" alt="CodeCrew Code School Logo">CodeCrew Code School</a>
-            </div>
-
-
-            <div>
-                <a href="http://www.southwest.tn.edu/emt/ " target="_blank"><img src="img/SWTN%20seal.JPG" width="18%" height="180px" alt="Southwest Tennessee Community College School Seal"> Southwest Tennessee Community College</a>
-            </div>
-
-
-            <div>
-                <a href="https://www.utech.edu.jm/" target="_blank"><img src="img/utech-logo.png" width="18%" height="180px" alt="University of Technology Jamaica School Logo">University of Technology</a>
+                <a href="https://www.code-crew.org/codeschool" target="_blank"><img src="img/code-school-logo-3-3-.png" alt="CodeCrew Code School Logo"></a>
             </div>
             <div>
-                <a href="https://www.ncu.edu.jm/" target="_blank"><img src="img/Logo_of_ncu.jpg" width="18%" height="180px" alt="Northern Caribbean University School Logo">Northern Caribbean University</a>
+                <a href="http://www.southwest.tn.edu/emt/ " target="_blank"><img src="img/SWTN%20seal.JPG" width="85%" height="180px" alt="Southwest Tennessee Community College School Seal"></a>
+            </div>
+            <div>
+                <a href="https://www.utech.edu.jm/" target="_blank"><img src="img/University-of-Technology-Jamaica-1149.gif.jpg" width="85%" height="180px" alt="University of Technology Jamaica School Logo"></a>
+            </div>
+            <div>
+                <a href="https://www.ncu.edu.jm/" target="_blank"><img src="img/Logo_of_ncu.jpg" width="85%" height="180px" alt="Northern Caribbean University School Logo"></a>
             </div>
     </div>
 </section>
 
 <!--Resume/Work Experience-->
-<section class = 'work'>
+<section id="resume" class = 'work'>
+    <h3 class="title" >Resume</h3>
     <div id="work_exp">
-        <embed src="files/Resume-%20Melissa%20Yates%20Junior%20Developer.pdf" type="application/pdf" width="100%" height="600px">
+        <embed src="files/Resume-%20Melissa%20Yates%20Junior%20Developer.pdf" type="application/pdf" width="60%" height="600px">
     </div>
 </section>
 <!-- CONTACT -->
@@ -184,7 +191,7 @@
                     <span class="line-bar">____________________________</span>
                 </div>
             </div>
-            <div>
+            <div id="textform">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_ZY3XvTR0VIAPa5Kt6k2CZQKUQKAZbqcWxeunxVbT_ov35A/viewform?embedded=true" width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
 <!--            <div class="col-md-8 col-sm-8">-->
@@ -229,20 +236,25 @@
     </div>
 </section>
 <!--Weekly Reflections-->
-<section class="playlist">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vbzfW2j8dQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BO6VCEuewQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/f1qO7BjXmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<section id="reflections">
+    <h3 class="title">Weekly Reflections</h3>
+    <div class="playlist">
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/vbzfW2j8dQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/BO6VCEuewQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/f1qO7BjXmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="paper">
+        <iframe width="660" height="315"src="https://docs.google.com/document/d/e/2PACX-1vQRIxpXWeSecgp9zcqcfo1dU86W_cM2rAW9UiWItCyE0CAqrRwN5sBpzIgfZgy0Qs-KnWN1ePkLOYtD/pub?embedded=true"></iframe>
+    </div>
 </section>
 
 <!--Footer-->
-<footer class="center bg-dark">
+<footer name = "bottom" class="center bg-dark">
     <p class="cell-number">832 670-5414</p>
     <p class="email">melissampeart@gmail.com</p>
     <p>MMY Code &copy; 2019</p>
 </footer>
-
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
 <script src="index.js"></script>
 </body>
 </html>
