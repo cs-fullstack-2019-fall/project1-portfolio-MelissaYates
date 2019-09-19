@@ -29,6 +29,7 @@
         </ul>
     </div>
 </div>
+<div class="fade"></div>
 <div id="home" class="showcase">
     <div class="content">
         <img src="./img/MMY-logo-white.png" class="logo" alt="Melissa's Logo">
@@ -41,43 +42,6 @@
 
     </div>
 </div>
-<!--<div id="app">-->
-<!--    <nav class="top-nav">-->
-<!--        <a id="navbar">-->
-<!--            <span class="fa fa-bars">-->
-<!--            </span>-->
-<!--        </a>-->
-<!--        <div id="navitemscontainer" class="nav-item-container w3-card-4">-->
-<!--            <a class="nav-item home w3-text-white" href="index.html">-->
-<!--                <span class="w3-xxlarge fa fa-home"></span>-->
-<!--                <br>-->
-<!--                <span class="nav-label">Home</span>-->
-<!--                </a>-->
-<!--            <a class="nav-item abt w3-text-white" href="about.html">-->
-<!--                <span class="w3-xxlarge fa fa-info-circle"></span>-->
-<!--                <br>-->
-<!--                <span class="nav-label">About Me</span></a>-->
-<!--            <a class="nav_link" href="#portfolio" class="nav-item email w3-text-white">-->
-<!--                <span class="w3-xxlarge fa fa-gamepad"></span>-->
-<!--                <span class="nav-label">Portfolio</span>-->
-<!--            </a>-->
-<!--            <a class="nav-item cv w3-text-white" href="resume.html">-->
-<!--                <span class="w3-xxlarge fa fa-file-text"></span>-->
-<!--                <br>-->
-<!--                <span class="nav-label">Education & Resume</span></a>-->
-<!--            <a class="nav_link" href="">Contact</a>-->
-<!--            <a class="nav_link" href="">Weekly Reflections</a>-->
-<!--        </div>-->
-
-<!--    </nav>-->
-<!--</div>-->
-
-<!--<button class="cn-button" id="cn-button">+</button>-->
-<!--<nav class="navbar navbar-default">-->
-<!--bg-dark navbar-dark fixed-top">&ndash;&gt;-->
-
-<!--</nav>-->
-
 <div class = 'intro'>
     <br>
     <span>Creator</span>
@@ -120,7 +84,7 @@
             <div class="center">
                 <i class="fas fa-laptop fa-10x"></i>
             </div>
-            <div>
+            <div id="about-me">
                 <h3>Quick Bio</h3>
                 <hr>
                 <p>I am a newbie JavaScript and Python Developer from Jamaica. I am currently attending a coding bootcamp to learn the essential skills I need to break into the coding scene. When I am not coding, I am either reading or cooking.</p>
@@ -132,29 +96,32 @@
 <!--Projects-->
 <section id="portfolio" class="projects">
     <div class="projects-container">
-        <h3 class="title">Portfolio</h3>
+        <h2 class="title">Portfolio</h2>
+        <br>
         <div class="projects-square">
 <!--            First Project-->
-            <a href="https://github.com/cs-fullstack-2019-fall/frontend-halfday1-b-MelissaYates.git" class="button-click">
-                <div class="square-content">
-                    <img class="click" src="" alt="Button Clicking Game">
-                    <p class="center-text">Two player Button Clicking Game that shows when one player takes the lead in the middle area.</p>
-                </div>
-            </a>
+            <div class="square-content">
+                <a href="https://github.com/cs-fullstack-2019-fall/frontend-halfday1-b-MelissaYates.git" class="button-click">
+                    <img class="click" src="img/buttonclickgame.png" alt="Button Clicking Game" height="300" width="80%"/>
+                </a>
+                <p class="center-text">Two player Button Clicking Game that shows when one <br>player takes the lead in the middle area.</p>
+            </div>
 <!--            Second Project-->
-<!--            <a href="" class="">-->
-<!--                <div class="square-content">-->
-<!--                    <img class="" src="" alt="">-->
-<!--                    <p class="center-text">Description of application</p>-->
-<!--                </div>-->
-<!--            </a>-->
-
+            <div class="square-content">
+                <a href="https://github.com/cs-fullstack-2019-fall/javascript-showhidegame-starter-MelissaYates.git" class="">
+                    <img class="show-hide" src="img/showhidegame.png" alt="Button Clicking Game" height="300" width="90%"/>
+                </a>
+                <p class="center-text">Show/Hide game that uses random positioning to place targets. <br>
+                    Player is encouraged to click as many targets as they can. <br>
+                    Once the player finds the number of targets in game, game ends.</p>
+            </div>
         </div>
     </div>
 </section>
 <!--Education-->
 <section id="education" class="education">
     <h3 class="title">Education</h3>
+    <br>
     <div id="educ">
             <div>
                 <a href="https://www.code-crew.org/codeschool" target="_blank"><img src="img/code-school-logo-3-3-.png" alt="CodeCrew Code School Logo"></a>
@@ -194,54 +161,27 @@
             <div id="textform">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_ZY3XvTR0VIAPa5Kt6k2CZQKUQKAZbqcWxeunxVbT_ov35A/viewform?embedded=true" width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
-<!--            <div class="col-md-8 col-sm-8">-->
-
-<!--                &lt;!&ndash; CONTACT FORM HERE &ndash;&gt;-->
-<!--                <form id="contact-form" action="https://formspree.io/email@domain.tld" method="POST">-->
-<!--                    <input type="hidden" name="_subject" value="Message to Melissa Yates" />-->
-<!--                    <div class="col-md-12 col-sm-12">-->
-<!--                        <label>Full Name</label>-->
-<!--                        <input type="text" name="name" class="form-control" placeholder="Your name" id="cf-name" required="required">-->
-
-<!--                    </div>-->
-
-<!--                    <div class="col-md-6 col-sm-6">-->
-<!--                        <label>Email Address</label>-->
-<!--                        <input type="email" name="_replyto" class="form-control" placeholder="youremail@gmail.com" id="cf-email" required="required">-->
-<!--                        <label>Telephone Number</label>-->
-<!--                        <input type="tel" class="form-control " placeholder="901 555-8888" id="cf-number"-->
-<!--                               name="cf-number" required="required">-->
-<!--                    </div>-->
-
-<!--&lt;!&ndash;                    <div class="col-md-6 col-sm-6">&ndash;&gt;-->
-<!--&lt;!&ndash;                        <label>Telephone Number</label>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <input type="tel" class="form-control " placeholder="901 555-8888" id="cf-number"&ndash;&gt;-->
-<!--&lt;!&ndash;                               name="cf-number" required="required">&ndash;&gt;-->
-<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
-
-<!--                    <div class="col-md-12 col-sm-12">-->
-<!--                        <label>Your Message</label>-->
-<!--                        <textarea class="form-control" rows="5" id="cf-message" name="cf-message" required="required"></textarea>-->
-<!--                    </div>-->
-
-<!--                    <div class="col-md-4 col-sm-6">-->
-<!--                        <input type="submit" class="form-control" name="submit" value="SEND MESSAGE">-->
-<!--                    </div>-->
-<!--                    <div class="col-md-2 col-sm-4">-->
-<!--                        <input type="reset" class="form-control" name="reset" value="CLEAR">-->
-<!--                    </div>-->
-<!--                </form>-->
-<!--            </div>-->
         </div>
     </div>
 </section>
 <!--Weekly Reflections-->
 <section id="reflections">
     <h3 class="title">Weekly Reflections</h3>
-    <div class="playlist">
-    <iframe width="360" height="315" src="https://www.youtube.com/embed/vbzfW2j8dQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="360" height="315" src="https://www.youtube.com/embed/BO6VCEuewQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="360" height="315" src="https://www.youtube.com/embed/f1qO7BjXmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="playlist">
+        <div class="video-slider">
+            <div class="slide">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/vbzfW2j8dQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="slide">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/BO6VCEuewQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="slide">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/f1qO7BjXmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="slide-arrow left"></div>
+            <div class="slide-arrow right"></div>
+        </div>
+
     </div>
     <div id="paper">
         <iframe width="660" height="315"src="https://docs.google.com/document/d/e/2PACX-1vQRIxpXWeSecgp9zcqcfo1dU86W_cM2rAW9UiWItCyE0CAqrRwN5sBpzIgfZgy0Qs-KnWN1ePkLOYtD/pub?embedded=true"></iframe>
@@ -255,6 +195,11 @@
     <p>MMY Code &copy; 2019</p>
 </footer>
 <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+<script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
 <script src="index.js"></script>
 </body>
 </html>
