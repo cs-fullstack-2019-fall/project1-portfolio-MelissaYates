@@ -70,7 +70,7 @@ body{
     display:grid;
     grid-template-columns:3fr 3fr 3fr 3fr 1fr;
     grid-gap:20px;
-    padding-left: 310px;
+    padding-left: 270px;
     padding-top: 20px;
 
 }
@@ -124,7 +124,7 @@ form {
     margin-top: 0em;
 }
 #skills{
-    padding-left: 160px;
+    padding-left: 110px;
     margin-top: 10%;
     font:50px bolder;
 }
@@ -133,7 +133,7 @@ form {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 15vw);
     grid-gap: 10px;
-    padding-left: 240px;
+    padding-left: 200px;
     padding-bottom: 150px;
     /*justify-content: center;*/
     /*padding-left: 240px;*/
@@ -149,7 +149,7 @@ form {
 }
 #paper{
     justify-content: center;
-    padding-left: 460px;
+    padding-left: 420px;
 }
 /*PORTFOLIO*/
 .projects-square{
