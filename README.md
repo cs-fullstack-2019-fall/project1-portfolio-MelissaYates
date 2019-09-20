@@ -56,3 +56,6 @@ Make sure you include the following pages:
 - http://sorenromer.com/
 - https://www.clemsonwebdesign.com/
 - https://daneden.github.io/animate.css/
+
+### Kenn's Notes:
+You were close, but didn't give your images even margins, text didn't explain your skills and education. Resume and skills is not centered.
