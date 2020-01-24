@@ -1,0 +1,467 @@
+html {
+    width: 100%;
+}
+
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #000000,  #1a001a, #660066, #b300b3, #ff1aff);
+
+}
+
+.container{
+    max-width: 960px;
+    margin:auto;
+    overflow:hidden;
+    padding:4rem 1rem;
+
+}
+.title{
+    text-align: center;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 2%;
+}
+
+
+
+
+#myname {
+    grid-column: 1/11;
+    width: 100%;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+
+
+#nav {
+    grid-column: 1/11;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    border: 2px;
+    background-color: black;
+    border-radius: 45px;
+    margin-right: 5%;
+    opacity: 0.90;
+}
+
+
+
+
+
+
+
+.nav-item  {
+
+    /*padding: 1%;*/
+    margin: 1%;
+}
+
+
+.nav-link {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.nav-link:hover {
+    color: purple;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+#hello {
+
+    font-family: "Courier New", cursive;
+    font-weight: bolder;
+    font-size: 2vw;
+    grid-column: 2/8;
+    color: white;
+    padding: 5%;
+    margin-top: 10%;
+
+
+}
+
+#mypic {
+    grid-column: 8/9;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    box-shadow: 10px 10px;
+    border: purple 5px solid;
+    border-radius: 75px;
+}
+
+#aboutmeTitle {
+
+    grid-column: 1/9;
+    font-size: 35px;
+    font-family:"Courier New", cursive;
+    text-decoration: white underline solid;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    /*padding: 25px;*/
+    margin-top: 5%;
+    /*    background-color: white;*/
+}
+#aboutme {
+
+    grid-column: 3/9;
+    font-size: 25px;
+    height: 100%;
+    color: white;
+    padding: 5%;
+    font-family:"Courier New", cursive;
+    background-color: black ;
+    opacity: 0.85;
+    border-radius: 75px;
+    margin-top: 2%;
+}
+
+
+#skillsTitle {
+
+    grid-column: 1/10;
+    font-size: 35px;
+    font-family:"Courier New", cursive;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    padding: 2%;
+    margin-top: 10%;
+    text-decoration: white underline solid;
+
+}
+
+#skills {
+
+    grid-column: 3/9;
+    font-size: 2vw;
+    font-family:"Courier New", cursive;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 75px;
+    margin: 2%;
+    padding: 2%;
+    opacity: 0.85;
+
+}
+
+
+.skills_td_table {
+    /*height: 100%;*/
+    padding: 2%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /*grid-column: 1/7;*/
+}
+
+.skillimages {
+
+    margin: 15%;
+
+}
+
+#eduTitle {
+    grid-column: 1/10;
+    font-size: 35px;
+    font-family:"Courier New", cursive;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    padding: 2%;
+    margin-top: 10%;
+    text-decoration: white underline solid;
+
+
+}
+
+.education {
+
+
+    grid-column: 3/9;
+    margin-top: 2%;
+    font-size: 1vw;
+    font-family:"Courier New", cursive;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 2%;
+    background-color: black;
+    border-radius: 75px;
+    opacity: 0.85;
+
+}
+
+
+.edu_table {
+    grid-column: 3/9;
+    padding: 10px;
+
+}
+
+
+.edu_td_table {
+    height: 100%;
+    padding: 2%;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    grid-column: 1/7;
+
+}
+
+.td_table {
+    /*height: 100%;*/
+    padding: 1%;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    /*grid-column: 1/7;*/
+}
+
+
+#proTitle {
+
+    grid-column: 1/9;
+    font-size: 35px;
+    font-family:"Courier New", cursive;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    padding: 25px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-decoration: white underline solid;
+
+
+}
+
+.projects_table_section {
+
+    grid-column: 3/9;
+    margin-top: 2%;
+    column-gap: 1%;
+    font-size: 2vw;
+    font-family:"Courier New", cursive;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 75px;
+    opacity: 0.85;
+
+
+}
+
+
+.td_project_screen_shot{
+
+    /*border: #f75c00 5px solid;*/
+    grid-column: 3/9;
+    font-weight: bolder;
+    /*background-color: whitesmoke;*/
+    color: white;
+    padding: 2%;
+    margin: 2%;
+}
+
+a:link {
+    color: white;
+}
+
+/*visited link*/
+a:visited {
+    color: white;
+}
+
+/*mouse over link*/
+a:hover {
+    color: purple;
+}
+
+/*selected link*/
+a:active {
+    color: blue;
+}
+
+.td_project_title
+{
+
+    /*border: #f75c00 5px solid;*/
+
+    /*border: #f75c00 5px solid;*/
+    grid-column: 3/9;
+    font-size: 1vw;
+    text-align: left;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 2%;
+
+}
+
+.td_project_description
+{
+
+    grid-column: 3/9;
+    background-color: black;
+    font-size: 1vw;
+    color: white;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 2%;
+
+}
+
+#resumeTitle {
+
+    grid-column: 1/11;
+    font-size: 35px;
+    font-family:"Courier New", cursive;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    padding: 25px;
+    margin-top: 10%;
+    text-decoration: white underline solid;
+}
+
+#resume {
+
+    grid-column: 3/9;
+    font-size: 35px;
+    height: 1200px;
+    width: 100%;
+    color: white;
+    padding: 25px;
+
+    border-radius: 45px;
+    background-color: black;
+
+    opacity: 0.95;
+}
+
+#pdf
+{
+    grid-column: 2/8;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    height: 200px;
+    color: black;
+    text-align: center;
+    margin-left: 40%;
+
+}
+
+
+#conTitle {
+
+    grid-column: 1/10;
+    font-size: 35px;
+    font-family:"Courier New", cursive;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    padding: 25px;
+    margin-top: 10%;
+    text-decoration: white underline solid;
+
+}
+
+#contact_form {
+    grid-column: 3/9;
+    padding: 25px;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    opacity: 0.85;
+
+}
+
+
+
+
+#reflections_iframe{
+
+    grid-column: 3/9;
+    padding: 1.5%;
+    width: 100%;
+    color: purple;
+    border-radius: 45px;
+    margin-top: 50px;
+    margin-bottom: 1%;
+    background-color: black;
+
+}
+
+
+
+.round_images {
+    border-radius: 25px;
+
+
+}
+
+footer {
+    display: inline-block;
+    position: relative;
+    min-height: 1px;
+    background-color: black;
+    color: lightslategray;
+    font-size: 30px;
+    grid-column: 3/9;
+    text-align: center;
+}
+
+.back_to_top {
+    color: purple;
+    font-weight: bolder;
+
+}
+.iconify { width: 96px; height: 96px; }
+.iconify { width: 96px; height: 96px; }
+
+.arrow-down-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+.arrow-down {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

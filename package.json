@@ -1,0 +1,22 @@
+{
+  "name": "project1-portfolio-melissayates",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-fullstack-2019-fall/project1-portfolio-MelissaYates.git"
+  },
+  "author": "Melissa Yates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cs-fullstack-2019-fall/project1-portfolio-MelissaYates/issues"
+  },
+  "homepage": "https://github.com/cs-fullstack-2019-fall/project1-portfolio-MelissaYates#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
