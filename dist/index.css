@@ -101,7 +101,9 @@ body {
 
 
 }
-
+#pic{
+    padding-top: 50px;
+}
 #mypic {
     grid-column: 8/9;
     margin-left: 10%;
