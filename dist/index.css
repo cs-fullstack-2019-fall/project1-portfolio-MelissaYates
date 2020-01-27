@@ -117,7 +117,7 @@ body {
     grid-column: 1/9;
     font-size: 35px;
     font-family:Verdana, sans-serif;
-    text-decoration: white underline solid;
+    text-decoration: white solid;
     font-weight: bolder;
     height: 100%;
     color: white;
@@ -148,7 +148,7 @@ body {
     color: white;
     padding: 2%;
     margin-top: 10%;
-    text-decoration: white underline solid;
+    text-decoration: white solid;
 
 }
 
@@ -191,7 +191,7 @@ body {
     color: white;
     padding: 2%;
     margin-top: 10%;
-    text-decoration: white underline solid;
+    text-decoration: white solid;
 
 
 }
@@ -251,7 +251,7 @@ body {
     padding: 25px;
     margin-top: 10%;
     margin-bottom: 5%;
-    text-decoration: white underline solid;
+    text-decoration: white solid;
 
 
 }
@@ -338,7 +338,7 @@ a:active {
     color: white;
     padding: 25px;
     margin-top: 10%;
-    text-decoration: white underline solid;
+    text-decoration: white solid;
 }
 
 #resume {
@@ -381,7 +381,7 @@ a:active {
     color: white;
     padding: 25px;
     margin-top: 10%;
-    text-decoration: white underline solid;
+    text-decoration: white solid;
 
 }
 
@@ -489,6 +489,7 @@ footer{
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .menu, .main, .right {
+        width: 100%;
         width: 100%;
     }
 }
