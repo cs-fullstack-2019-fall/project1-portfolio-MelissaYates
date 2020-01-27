@@ -16,6 +16,7 @@ body {
     padding:4rem 1rem;
 
 }
+
 .title{
     text-align: center;
 }
@@ -52,7 +53,6 @@ body {
     padding: 1%;
     border: 2px;
     background-color: black;
-    /*border-radius: 45px;*/
     margin-right: 5%;
     opacity: 0.90;
     border-radius: 4px;
@@ -121,9 +121,7 @@ body {
     font-weight: bolder;
     height: 100%;
     color: white;
-    /*padding: 25px;*/
     margin-top: 5%;
-    /*    background-color: white;*/
 }
 #aboutme {
 
@@ -172,12 +170,10 @@ body {
 
 
 .skills_td_table {
-    /*height: 100%;*/
     padding: 2%;
     font-size: 25px;
     color: white;
     text-align: center;
-    /*grid-column: 1/7;*/
 }
 
 .skillimages {
@@ -241,7 +237,6 @@ body {
     font-size: 1vw;
     color: white;
     text-align: center;
-    /*grid-column: 1/7;*/
 }
 
 
@@ -281,10 +276,8 @@ body {
 
 .td_project_screen_shot{
 
-    /*border: #f75c00 5px solid;*/
     grid-column: 3/9;
     font-weight: bolder;
-    /*background-color: whitesmoke;*/
     color: white;
     padding: 2%;
     margin: 2%;
@@ -312,9 +305,6 @@ a:active {
 .td_project_title
 {
 
-    /*border: #f75c00 5px solid;*/
-
-    /*border: #f75c00 5px solid;*/
     grid-column: 3/9;
     font-size: 1vw;
     text-align: left;
@@ -403,8 +393,9 @@ a:active {
     border-radius: 45px;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: white;
     background-color: black;
-    opacity: 0.85;
+    opacity: 0.95;
 
 }
 
@@ -485,23 +476,20 @@ footer{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-.ml10 {
-    position: relative;
-    font-weight: 900;
-    font-size: 4em;
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
 }
 
-.ml10 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-}
-
-.ml10 .letter {
-    display: inline-block;
-    line-height: 1em;
-    transform-origin: 0 0;
-}
