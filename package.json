@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/cs-fullstack-2019-fall/project1-portfolio-MelissaYates#readme",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
